@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header {
+    background: white;
+}
+
+.feature-card {
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    background: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    color: #D5006D; /* Pink color */
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.btn.secondary {
+    background-color: #D5006D; /* Pink */
+    transition: background 0.3s ease;
+}
+
+.btn.secondary:hover {
+    background-color: #c40057; /* Darker Pink */
+}
+
+footer {
+    background: linear-gradient(to right, rgba(128, 0, 128, 0.6), rgba(255, 105, 180, 0.6));
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: gray;
+}

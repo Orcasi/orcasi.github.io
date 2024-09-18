@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orcasii - Your Tagline Here</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="bg-white flex flex-col relative">
+        <header class="sticky top-0 shadow-md z-50 p-4 bg-white font-bold text-pink-600">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="/">
+                    <img src="assets/orcasii.png" alt="Orcasii Logo" class="h-2">
+                </a>
+                <nav class="flex-1 flex justify-center">
+                    <ul class="flex space-x-4">
+                        <li><a href="/categories" class="hover:text-green-600">Categories</a></li>
+                        <li><a href="#features" class="hover:text-green-600">Dashboard</a></li>
+                        <li><a href="#pricing" class="hover:text-green-600">Ideas</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <ul class="flex space-x-4">
+                        <li><a href="/pre-signup" class="hover:text-green-600">Sign Up</a></li>
+                        <li><a href="/login" class="hover:text-green-600">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section class="min-h-screen bg-cover text-white relative" 
+            style="background-image: linear-gradient(to right, rgba(128, 0, 128, 0.6), rgba(255, 105, 180, 0.6)), url('/trad.jpg');">
+            <div class="container my-20 mx-auto py-32 px-4 text-center">
+                <h1 class="text-8xl font-bold mb-4">Get started with Orcasii</h1>
+                <p class="text-2xl mb-8">Your one stop destination for all Events planning services.</p>
+                <span>Forget the old ways. You can hire the best services. Right now. Right here.</span>
+                <div class="flex justify-center items-center py-10">
+                    <button class="btn secondary bg-pink-600 hover:bg-pink-700">For Businesses</button>
+                    <button class="btn secondary bg-green-600 hover:bg-green-700 ml-4">For Event Hosts</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="px-12 rounded-lg text-gray-900 mx-10 -mt-14 z-20">
+            <div class="relative p-4 bg-white shadow-lg rounded-lg">
+                <h2 class="text-3xl font-bold text-pink-600 text-center mb-8">Our Features</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Feature Cards -->
+                    <div class="feature-card">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <h3>Exceptional Customer Experience</h3>
+                        <p>At the center of Orcasii's operation, is a commitment to delivering exceptional customer experience.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-shopping-cart text-blue-500"></i>
+                        <h3>Vast Selection of Services and Vendors</h3>
+                        <p>As our customer experience improves, more vendors join the platform.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-dollar-sign text-green-500"></i>
+                        <h3>Convenience and Low Prices</h3>
+                        <p>Lower operational costs allow Orcasii to pass on the savings to customers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-white relative overflow-hidden">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col space-y-12">
+                    <div class="flex flex-col lg:flex-row items-center bg-white rounded-lg shadow-lg overflow-hidden">
+                        <div class="flex-shrink-0 w-full lg:w-1/2">
+                            <img src="/birthday.jpg" alt="Feature One" class="w-full h-64 object-cover">
+                        </div>
+                        <div class="w-full lg:w-1/2 p-6 lg:p-8">
+                            <h3 class="text-2xl font-semibold mb-4 text-pink-600">Benefits of using Orcasii</h3>
+                            <p class="text-gray-600 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+
+                    <!-- More Feature Sections... -->
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-cover bg-gradient-to-r from-purple-500 to-pink-500 py-20" 
+            style="background-image: linear-gradient(to right, rgba(128, 0, 128, 0.6), rgba(255, 105, 180, 0.6)), url('/trad.jpg');">
+            <div class="container mx-auto px-4 text-center text-white">
+                <h3 class="text-2xl font-bold mb-4">Stay Connected</h3>
+                <p class="mb-8">Join our community to stay updated with the latest features.</p>
+                
+                <div class="flex flex-col items-center justify-center px-4">
+                    <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
+                        <h2 class="text-2xl text-pink-600 font-bold mb-6 text-center">Subscribe to Our Newsletter</h2>
+                        <form id="subscribeForm" class="flex flex-col gap-4">
+                            <input type="text" placeholder="Enter your name" class="w-full rounded-full p-2">
+                            <input type="email" placeholder="Enter your email" class="w-full rounded-full p-2" required>
+                            <button type="button" class="btn secondary bg-pink-600 hover:bg-pink-700">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="mt-12 mb-8 flex justify-center space-x-6">
+                    <a href="https://facebook.com" target="_blank" class="text-white hover:text-gray-300"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="text-white hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="text-white hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+                    <a href="https://tiktok.com" target="_blank" class="text-white hover:text-gray-300"><i class="fab fa-tiktok"></i></a>
+                </div>
+
+                <p class="text-sm">© 2024 Orcasii. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
